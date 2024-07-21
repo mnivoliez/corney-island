@@ -5,12 +5,12 @@ meta:
   ref: &kb_ref "Corney Island v0.2"
   author: ceoloide
   url: &kb_url https://github.com/ceoloide/corney-island
-  footprint: &switch_footprint "ceoloide/switch_mx"
-  # footprint: &switch_footprint "ceoloide/switch_choc_v1_v2"
+  # footprint: &switch_footprint "ceoloide/switch_mx"
+  footprint: &switch_footprint "ceoloide/switch_choc_v1_v2"
   switch:
-    $extends: presets.mx
+    # $extends: presets.mx
     # $extends: presets.choc_v1
-    # $extends: presets.choc_v2
+    $extends: presets.choc_v2
 
 presets:
   # These presets provide different layout options
